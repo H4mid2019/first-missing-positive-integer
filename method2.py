@@ -3,7 +3,7 @@ def solution2(a):
     if len(b) == 0:
         return '1'
     b.sort()
-    b = list(set(b))
+    b = set(b)
     c = 1
     for i in b:
         if i != c:
